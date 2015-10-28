@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @donut.name %>
+</p>
+
+<p>
+  <strong>Extras:</strong>
+  <%= @donut.extras %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @donut.cost %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @donut.image %>
+</p>
+
+<%= link_to 'Edit', edit_donut_path(@donut) %> |
+<%= link_to 'Back', donuts_path %>
